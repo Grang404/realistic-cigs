@@ -1,0 +1,71 @@
+VERSION = 1,
+
+option RealisticCigs.GlobalChance
+{
+    type = integer,
+    default = 40,
+    min = 0,
+    max = 100,
+    page = RealisticCigs,
+    translation = RealisticCigs_GlobalChance,
+}
+
+option RealisticCigs.CigarettePackChance
+{
+    type = integer,
+    default = 15,
+    min = 0,
+    max = 100,
+    page = RealisticCigs,
+    translation = RealisticCigs_CigarettePackChance,
+}
+
+option RealisticCigs.CigarettePackMin
+{
+    type = integer,
+    default = 4,
+    min = 1,
+    max = 20,
+    page = RealisticCigs,
+    translation = RealisticCigs_CigarettePackMin,
+}
+
+option RealisticCigs.CigarettePackMax
+{
+    type = integer,
+    default = 19,
+    min = 1,
+    max = 20,
+    page = RealisticCigs,
+    translation = RealisticCigs_CigarettePackMax,
+}
+
+option RealisticCigs.LighterChance
+{
+    type = integer,
+    default = 10,
+    min = 0,
+    max = 100,
+    page = RealisticCigs,
+    translation = RealisticCigs_LighterChance,
+}
+
+option RealisticCigs.DisposableChance
+{
+    type = integer,
+    default = 10,
+    min = 0,
+    max = 100,
+    page = RealisticCigs,
+    translation = RealisticCigs_DisposableChance,
+}
+
+option RealisticCigs.MatchesChance
+{
+    type = integer,
+    default = 10,
+    min = 0,
+    max = 100,
+    page = RealisticCigs,
+    translation = RealisticCigs_MatchesChance,
+}
