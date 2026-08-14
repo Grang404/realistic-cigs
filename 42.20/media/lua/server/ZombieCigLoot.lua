@@ -74,4 +74,3 @@ end
 Events.OnZombieDead.Add(addLootToZombie)
 
 print("[RealisticCigs] Loaded.")
-
